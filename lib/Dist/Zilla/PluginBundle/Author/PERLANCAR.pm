@@ -1,7 +1,7 @@
 package Dist::Zilla::PluginBundle::Author::PERLANCAR;
 
-our $DATE = '2014-11-08'; # DATE
-our $VERSION = '0.28'; # VERSION
+our $DATE = '2014-12-13'; # DATE
+our $VERSION = '0.29'; # VERSION
 
 use Moose;
 with 'Dist::Zilla::Role::PluginBundle::Easy';
@@ -22,7 +22,7 @@ sub configure {
         'CheckMetaResources',
         'MetaJSON',
         'MetaConfig',
-        'Rinci::InstallCompletion',
+        'GenShellCompletion',
         'OurDate',
         'PodWeaver',
         ['PruneFiles' => {match => ['~$']}],
@@ -52,7 +52,7 @@ Dist::Zilla::PluginBundle::Author::PERLANCAR - Dist::Zilla like PERLANCAR when y
 
 =head1 VERSION
 
-This document describes version 0.28 of Dist::Zilla::PluginBundle::Author::PERLANCAR (from Perl distribution Dist-Zilla-PluginBundle-Author-PERLANCAR), released on 2014-11-08.
+This document describes version 0.29 of Dist::Zilla::PluginBundle::Author::PERLANCAR (from Perl distribution Dist-Zilla-PluginBundle-Author-PERLANCAR), released on 2014-12-13.
 
 =head1 SYNOPSIS
 

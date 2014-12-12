@@ -3,9 +3,9 @@ NAME
     PERLANCAR when you build your dists
 
 VERSION
-    This document describes version 0.28 of
+    This document describes version 0.29 of
     Dist::Zilla::PluginBundle::Author::PERLANCAR (from Perl distribution
-    Dist-Zilla-PluginBundle-Author-PERLANCAR), released on 2014-11-08.
+    Dist-Zilla-PluginBundle-Author-PERLANCAR), released on 2014-12-13.
 
 SYNOPSIS
      # dist.ini

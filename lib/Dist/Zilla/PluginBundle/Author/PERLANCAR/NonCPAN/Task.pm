@@ -3,7 +3,7 @@ package Dist::Zilla::PluginBundle::Author::PERLANCAR::NonCPAN::Task;
 use Moose;
 with 'Dist::Zilla::Role::PluginBundle::Easy';
 
-our $VERSION = '0.28'; # VERSION
+our $VERSION = '0.29'; # VERSION
 
 use Dist::Zilla::PluginBundle::Filter;
 
@@ -33,7 +33,7 @@ Dist::Zilla::PluginBundle::Author::PERLANCAR::NonCPAN::Task - Dist::Zilla like P
 
 =head1 VERSION
 
-This document describes version 0.28 of Dist::Zilla::PluginBundle::Author::PERLANCAR::NonCPAN::Task (from Perl distribution Dist-Zilla-PluginBundle-Author-PERLANCAR), released on 2014-11-08.
+This document describes version 0.29 of Dist::Zilla::PluginBundle::Author::PERLANCAR::NonCPAN::Task (from Perl distribution Dist-Zilla-PluginBundle-Author-PERLANCAR), released on 2014-12-13.
 
 =head1 SYNOPSIS
 
