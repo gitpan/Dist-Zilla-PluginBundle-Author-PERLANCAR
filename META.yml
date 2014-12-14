@@ -40,7 +40,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-PluginBundle-Author-PERLANCAR
   homepage: https://metacpan.org/release/Dist-Zilla-PluginBundle-Author-PERLANCAR
   repository: git://github.com/perlancar/perl-Dist-Zilla-PluginBundle-Author-PERLANCAR.git
-version: '0.31'
+version: '0.32'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
@@ -134,9 +134,9 @@ x_Dist_Zilla:
       name: '@Author::PERLANCAR/MetaConfig'
       version: '5.025'
     -
-      class: Dist::Zilla::Plugin::GenShellCompletion
-      name: '@Author::PERLANCAR/GenShellCompletion'
-      version: '0.05'
+      class: Dist::Zilla::Plugin::Rinci::InstallCompletion
+      name: '@Author::PERLANCAR/Rinci::InstallCompletion'
+      version: '0.03'
     -
       class: Dist::Zilla::Plugin::OurDate
       name: '@Author::PERLANCAR/OurDate'

@@ -71,7 +71,7 @@
          "web" : "https://github.com/perlancar/perl-Dist-Zilla-PluginBundle-Author-PERLANCAR"
       }
    },
-   "version" : "0.31",
+   "version" : "0.32",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018002"
@@ -189,9 +189,9 @@
             "version" : "5.025"
          },
          {
-            "class" : "Dist::Zilla::Plugin::GenShellCompletion",
-            "name" : "@Author::PERLANCAR/GenShellCompletion",
-            "version" : "0.05"
+            "class" : "Dist::Zilla::Plugin::Rinci::InstallCompletion",
+            "name" : "@Author::PERLANCAR/Rinci::InstallCompletion",
+            "version" : "0.03"
          },
          {
             "class" : "Dist::Zilla::Plugin::OurDate",
