@@ -1,7 +1,7 @@
 package Dist::Zilla::PluginBundle::Author::PERLANCAR;
 
-our $DATE = '2014-12-14'; # DATE
-our $VERSION = '0.32'; # VERSION
+our $DATE = '2015-01-03'; # DATE
+our $VERSION = '0.33'; # VERSION
 
 use Moose;
 with 'Dist::Zilla::Role::PluginBundle::Easy';
@@ -34,6 +34,7 @@ sub configure {
         'PERLANCAR::OurPkgVersion',
         'Test::Compile',
         'Test::Rinci',
+        'PERLANCAR::GenTodoMd',
     );
 }
 
@@ -54,7 +55,7 @@ Dist::Zilla::PluginBundle::Author::PERLANCAR - Dist::Zilla like PERLANCAR when y
 
 =head1 VERSION
 
-This document describes version 0.32 of Dist::Zilla::PluginBundle::Author::PERLANCAR (from Perl distribution Dist-Zilla-PluginBundle-Author-PERLANCAR), released on 2014-12-14.
+This document describes version 0.33 of Dist::Zilla::PluginBundle::Author::PERLANCAR (from Perl distribution Dist-Zilla-PluginBundle-Author-PERLANCAR), released on 2015-01-03.
 
 =head1 SYNOPSIS
 
@@ -104,7 +105,7 @@ perlancar <perlancar@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by perlancar@cpan.org.
+This software is copyright (c) 2015 by perlancar@cpan.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
